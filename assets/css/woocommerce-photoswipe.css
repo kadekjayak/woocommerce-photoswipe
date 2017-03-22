@@ -1,0 +1,43 @@
+.woocommerce div.product div.owl-carousel {
+	visibility: invisible;
+}
+.woocommerce div.product div.thumbnails.owl-loaded {
+	visibility: visible;
+}
+
+.woocommerce div.product div.thumbnails.owl-carousel a {
+	width: auto;
+	max-width: 100%;
+}
+
+.woocommerce div.product .owl-carousel .owl-prev,
+.woocommerce div.product .owl-carousel .owl-next {
+	position: absolute;	
+	top: 50%;
+	margin-top: -20px;
+	background: rgba(0,0,0,0.3);
+}
+.woocommerce div.product .owl-carousel .owl-nav > div:hover {
+	background: rgba(0,0,0,0.7);
+}
+.woocommerce div.product .owl-carousel .owl-nav .owl-prev {
+	left: 0;
+}
+.woocommerce div.product .owl-carousel .owl-nav .owl-next {
+	right: 0;
+}
+
+
+
+/** OVerride WooCommerce 
+.pswp__button, 
+.pswp__button--arrow--left:before, 
+.pswp__button--arrow--right:before {
+	padding: 0 !important;
+	bakground: url(default-skin/default-skin.png) !important;
+}
+**/
+
+.pswp__img {
+	max-width: inherit !important;
+}
